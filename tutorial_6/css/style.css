@@ -1,0 +1,137 @@
+/*Base css*/
+.alignleft {
+	float: left;
+	margin-right: 15px;
+}
+.alignright {
+	float: right;
+	margin-left: 15px;
+}
+.aligncenter {
+	display: block;
+	margin: 0 auto 15px;
+}
+a:focus {
+	outline: 0 solid;
+}
+img {
+	max-width: 100%;
+	height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin: 0 0 15px;
+	font-weight: 700;
+	color: #333;
+}
+html,
+body {
+	height: 100%;
+}
+
+a:hover {
+	text-decoration: none;
+}
+section.section-padding {
+	padding: 80px;
+}
+
+.section-title {
+	text-align: center;
+	margin-bottom: 50px;
+}
+.section-title h2 span {
+	color: #2fa55e;
+}
+
+.single-pricing-box {
+	border: 1px solid #ddd;
+	padding: 20px;
+	text-align: center;
+}
+
+.single-pricing-box h3 {
+	text-transform: uppercase;
+}
+
+.pricing-icon {
+	font-size: 60px;
+	margin-bottom: 20px;
+}
+
+.pricing-icon img {
+	max-width: 70px;
+}
+
+.pricing-list {
+	text-align: left;
+	margin-bottom: 23px;
+}
+
+.pricing-list ul {
+	margin: 0;
+	list-style: none;
+	padding-left: 16px;
+	line-height: 26px;
+}
+.pricing-list ul li:before {
+	font-family: "Font Awesome 5 Free";
+	content: "\f00c";
+	padding-right: 10px;
+}
+.pricing-list ul li.off:before {
+	font-family: "Font Awesome 5 Free";
+	content: "\f20a";
+}
+
+.single-pricing-box h3.pricing-count {
+	text-transform: none;
+}
+
+a.bordered-btn {
+	display: inline-block;
+	border: 1px solid #2fa55e;
+	padding: 10px 30px;
+	border-radius: 50px;
+	color: #333;
+}
+a.bordered-btn:hover {
+	background-color: #633d3d;
+	color: white;
+	box-shadow: 0 0 50px #bd8181;
+}
+
+.single-pricing-box:hover {
+	border-color: blanchedalmond;
+	border: 1px solid #60abba;
+	box-shadow: 0 0 50px #af9c9c;
+	
+}
+.single-pricing-box:hover .pricing-icon {
+	color: darkgreen;
+}
+
+.pricing-icon,
+pricing-icon img {
+	-webkit-transition: 0.3s;
+	transition: 0.3s;
+}
+
+.single-pricing-box .pricing-icon:hover {
+	opacity: 0.7;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
+}
+
+.pricing-list ul li {
+	-webkit-transition: 0.2s;
+	transition: 0.2s;
+}
+
+.pricing-list ul li:hover {
+	padding-left: 5px;
+	font-weight: 500;
+}

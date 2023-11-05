@@ -1,0 +1,74 @@
+/*Base css*/
+.alignleft {
+	float: left;
+	margin-right: 15px;
+}
+.alignright {
+	float: right;
+	margin-left: 15px;
+}
+.aligncenter {
+	display: block;
+	margin: 0 auto 15px;
+}
+a:focus {
+	outline: 0 solid;
+}
+img {
+	max-width: 100%;
+	height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h5 {
+	margin: 0 0 15px;
+	font-weight: 700;
+}
+html,
+body {
+	height: 100%;
+}
+body {
+}
+a:hover {
+	text-decoration: none;
+}
+.video-area-bg{
+	background-image: url(../Img/videoBG.jpg);
+	background-color: #ddd;
+	background-position:center;
+	background-size: cover;
+}
+section.video-area {
+    position: relative;
+}
+
+.video-area-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 45%;
+	box-shadow: 0 0 20px #888;
+}
+
+.video-play-btn {
+    position: absolute;
+    top: 50%;
+    right: -50px;
+    height: 100px;
+    width: 100px;
+    background: #00816C;
+    color: #fff;
+    display: inline-block;
+    font-size: 40px;
+    line-height: 95px;
+    border-radius: 50%;
+    text-align: center;
+    padding-top: 3px;
+    padding-left: 14px;
+	margin-top: -50px;
+}

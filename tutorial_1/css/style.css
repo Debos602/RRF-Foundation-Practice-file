@@ -1,0 +1,74 @@
+/* Base css
+.alignleft{
+    float: left;
+    margin-right: 15px;
+}
+.alignright{
+    float: right;
+    margin-left: 15px;
+}
+a:focus  */
+
+
+
+.section-bg{
+    background-image: url(../Image/Rectangle\ 26.png);
+}
+.section-padding .container {
+    position: relative;
+}
+
+.section-padding {
+    position: relative;
+}
+
+.section-bg {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 60%;
+}
+
+.section-bg:after {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    content: "";
+    background: #5DC7BF;
+    opacity: .8;
+}
+
+
+.contact-form {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #fff;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.contact-form h2 {
+    color: #fff;
+}
+
+input:focus, textarea:focus, button:focus {
+    outline: none;
+}
+
+.contact-form input:focus {
+    border: 1px solid #333;
+}
+
+.contact-form input[type=submit] {width: auto;padding: 15px 30px;color: #63B1AF;font-weight: 700;}
+
+.appoinment-text {
+    padding-left: 100px;
+}
