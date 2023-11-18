@@ -180,13 +180,13 @@ a:hover {
 p.slide-alternative-color {
 	color: #6fb0a5;
 }
-ul.big-menu {
+.big-menu {
 	margin: 0;
 	list-style: none;
 	overflow: hidden;
 }
 
-ul.big-menu li {
+.big-menu li {
 	float: left;
 	width: 30%;
 	font-size: 50px;
@@ -195,14 +195,14 @@ ul.big-menu li {
 	transition: 0.3s;
 }
 
-ul.big-menu {
+.big-menu {
 	display: block;
 	text-align: right;
 	padding: 30px;
 	color: #333;
 }
 
-ul.big-menu li a {
+.big-menu li a {
 	display: block;
 	text-align: right;
 	padding: 170px 30px 30px;
@@ -211,33 +211,32 @@ ul.big-menu li a {
 	transition: 0.2s;
 }
 
-ul.big-menu li:nth-child(2) a {
+.big-menu li:nth-child(2) a {
 	color: #e55288;
 	font-family: "CodeBold";
 }
 
-ul.big-menu li:nth-child(2) {
+.big-menu li:nth-child(2) {
 	background-color: #f0e5e5;
 }
 
-ul.big-menu li:nth-child(3) {
+.big-menu li:nth-child(3) {
 	background-color: #f6f3a6;
 }
 
-ul.big-menu li:nth-child(4) {
+.big-menu li:nth-child(4) {
 	background-color: #ecf4f5;
 }
 
-ul.big-menu li:nth-child(2),
-ul.big-menu li:nth-child(3) {
+.big-menu li:nth-child(2),
+.big-menu li:nth-child(3) {
 	width: 20%;
 }
 
-ul.big-menu li a:hover {
+.big-menu li a:hover {
 	opacity: 0.5;
 }
-
-ul.big-menu li:hover {
+.big-menu li:hover {
 	opacity: 0.5;
 }
 .product-area {

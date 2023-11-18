@@ -1,0 +1,202 @@
+/*Base css*/
+@font-face {
+	font-family: "CodeBold";
+	src: url("../webfonts/Code-Bold.eot");
+	src: url("../webfonts/Code-Bold.eot?#iefix") format("embedded-opentype"),
+		url("../webfonts/Code-Bold.woff2") format("woff2"),
+		url("../webfonts/Code-Bold.woff") format("woff"),
+		url("../webfonts/Code-Bold.ttf") format("truetype");
+	font-weight: bold;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "CodeLight";
+	src: url("../webfonts/Code-Light.eot");
+	src: url("../webfonts/Code-Light.eot?#iefix") format("embedded-opentype"),
+		url("../webfonts/Code-Light.woff2") format("woff2"),
+		url("../webfonts/Code-Light.woff") format("woff"),
+		url("../webfonts/Code-Light.ttf") format("truetype");
+	font-weight: 300;
+	font-style: normal;
+	font-display: swap;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin: 0 0 0;
+	font-weight: 0;
+}
+html,
+body {
+	height: 100%;
+	font-family: "Playfair Display", serif;
+	font-family: "Roboto", sans-serif;
+	font-family: "Ubuntu", sans-serif;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+/* Menu css */
+.blog-readmore-btn,
+.blog-meta {
+	font-family: "Ubuntu" sans-serif;
+	font-weight: 300;
+}
+body {
+	line-height: 1.714;
+	color: #626262;
+}
+
+.main-menu ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-align: right;
+}
+
+.main-menu li {
+	display: inline-block;
+	padding-left: 85px;
+}
+
+.main-menu li a {
+	text-transform: uppercase;
+	display: block;
+	color: #626262;
+	padding: 70px 0;
+}
+.logo {
+	padding: 70px 0;
+}
+.logo a h2 {
+	color: #626262;
+}
+/* ----------------Menu & Logo css-------------------- */
+
+.blog-featured-content img {
+	width: 100%;
+}
+
+.single-blog-item {
+	margin-bottom: 120px;
+}
+
+.single-blog-item h2 a {
+	color: #626262;
+}
+
+.blog-meta {
+	text-transform: uppercase;
+}
+
+.blog-meta a {
+	color: #b4ac9f;
+}
+
+.single-blog-item h2 {
+	margin: 20px 0 25px;
+}
+
+.blog-readmore-btn {
+	color: #b4ac9f;
+	font-size: 30px;
+	text-transform: uppercase;
+}
+
+.blog-box-content {
+	margin-bottom: 30px;
+}
+
+.blog-box-content p:last-child {
+	margin: 0;
+}
+.blog-featured-content img {
+	width: 100%;
+	height: 250px;
+}
+.news-letter-area {
+	background: #f0f0f0;
+	padding: 70px 0;
+	text-align: center;
+	margin-bottom: 120px;
+}
+
+.news-letter-area h2 {
+	margin-bottom: 50px;
+}
+
+.newsletter-form {
+	max-width: 360px;
+	margin: 0 auto;
+	border-bottom: 1px solid #000;
+	position: relative;
+}
+
+.newsletter-form input[type="email"] {
+	border: none;
+	background: #f0f0f0;
+	padding: 10px;
+	width: 100%;
+}
+
+.newsletter-form i {
+	position: absolute;
+	top: 6px;
+	right: 0px;
+	padding: 10px;
+	border: none;
+}
+.load-more-btn {
+	display: inline-block;
+	border: 1px solid #626262;
+	font-size: 20px;
+	padding: 15px 20px;
+}
+
+.footer-area {
+	background: #f0f0f0;
+	padding: 35px 0;
+	margin-top: 90px;
+}
+
+.footer-area a {
+	color: #000;
+}
+
+.footer-area li {
+	display: inline-block;
+	padding-right: 40px;
+}
+
+.footer-area ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.footer-area .text-right a {
+	padding-left: 10px;
+}
+.blog-featured-content {
+	margin-bottom: 30px;
+}
+
+.big-blog-box .blog-featured {
+	margin-bottom: 80px;
+}
+
+.load-more-btn-wrapper {
+	margin-top: -30px;
+}
