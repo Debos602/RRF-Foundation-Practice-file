@@ -1,0 +1,65 @@
+/* Medium layout: 1280px */
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+	.main-menu li {
+		display: inline-block;
+		padding-left: 50px;
+	}
+}
+/* Tablet layout: 768px */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	.main-menu li {
+		display: inline-block;
+		padding-left: 22px;
+	}
+}
+/* Mobile layout: 320px */
+@media only screen and (max-width: 767px) {
+	.logo {
+		padding: 30px 0;
+		text-align: center;
+	}
+	.main-menu li {
+		padding: 25px;
+	}
+	.main-menu li a {
+		padding: 20px 0;
+		font-size: 10px;
+		font-weight: bold;
+	}
+	.main-menu ul {
+		margin-top: -30px;
+	}
+	.main-menu ul,
+	.footer-area {
+		text-align: center;
+	}
+	.big-blog-box .blog-featured {
+		margin-bottom: 30px;
+	}
+	.single-blog-item {
+		margin-bottom: 30px;
+	}
+	.news-letter-area {
+		margin-bottom: 70px;
+		padding: 50px 0;
+	}
+	.footer-area li {
+		padding: 10px;
+	}
+	.footer-area .text-right {
+		text-align: center !important;
+	}
+	.load-more-btn-wrapper {
+		margin-top: 0;
+	}
+	.load-more-btn {
+		padding: 10px 15px;
+	}
+	.footer-area {
+		margin-top: 65px;
+	}
+}
+
+/* Wide Mobile layout: 480px */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+}
