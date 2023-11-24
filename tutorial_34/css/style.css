@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;1,600&family=Roboto:wght@300;400;500;700;900&display=swap");
+
+input:focus,
+textarea:focus,
+button:focus {
+	outline: 0 solid;
+}
+img {
+	max-width: 100%;
+	height: auto;
+	background-repeat: no-repeat;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin: 0 0 0;
+	font-weight: 900;
+}
+html,
+body {
+	font-family: "Roboto", sans-serif;
+}
+
+a:hover {
+	text-decoration: none;
+}
+.single-slide-item {
+	background-image: url(../assets/fish.jpg);
+}
+.single-slide-item {
+	background-size: cover;
+	background-position: center;
+	background-color: #ddd;
+	height: 650px;
+	margin-bottom: 400px;
+	position: relative;
+}
+
+.slide-text-area {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+}
+
+.slide-text {
+	color: #fff;
+	padding-top: 60px;
+	padding-bottom: 60px;
+	padding-right: 150px;
+	font-size: 20px;
+	line-height: 1.8;
+	position: relative;
+	z-index: 1;
+}
+
+.slide-text h2 {
+	font-family: "Roboto";
+	font-size: 50px;
+}
+
+.boxed-btn {
+	display: inline-block;
+	background: #333;
+	color: #fff;
+	text-transform: uppercase;
+	padding: 15px 30px;
+}
+
+.slide-text:before {
+	position: absolute;
+	top: 0;
+	height: 100%;
+	width: 1000%;
+	background: #2185e5;
+	content: "";
+	opacity: .5;
+	right: 0;
+	z-index: -1;
+}
+.slide-text::after {
+	position: absolute;
+	top: 50px;
+	right: -20px;
+	width: 0;
+	height: 0;
+	content: "";
+	opacity: .5;
+	border-top: 20px solid transparent;
+	border-bottom: 20px solid transparent;
+	border-left: 20px solid #2185e6;
+   
+}
+
