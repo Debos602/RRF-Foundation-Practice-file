@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;1,600&family=Roboto:wght@300;400;500;700;900&display=swap");
+
+input:focus,
+textarea:focus,
+button:focus {
+	outline: 0 solid;
+}
+img {
+	max-width: 100%;
+	height: auto;
+	width: 60px;
+	background-repeat: no-repeat;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin: 0 0 15px;
+	font-weight: 900;
+}
+html,
+body {
+	font-family: "Roboto", sans-serif;
+}
+
+a:hover {
+	text-decoration: none;
+}
+body {
+	background: #f5f6fa;
+}
+
+.team-bg {
+	background-image: url(../assets/images/lady.jpg);
+}
+.team-bg-2 {
+	background-image: url(../assets/images/lady1.jpg);
+}
+.team-bg-3 {
+	background-image: url(../assets/images/lady2.jpg);
+}
+.section-title:before {
+	position: absolute;
+	right: 0;
+	height: 2px;
+	width: 70%;
+	content: "";
+	background: #000;
+	top: -25px;
+}
+
+.section-title {
+	position: relative;
+	text-transform: uppercase;
+	text-align: right;
+	font-size: 32px;
+	font-weight: 700;
+	transform: rotate(270deg);
+	margin-top: 65px;
+}
+
+.team-bg {
+	height: 270px;
+	background-size: cover;
+	background-position: center top;
+	margin-bottom: 50px;
+}
+
+.bordered-content {
+	border: 1px solid #333;
+	text-align: center;
+	font-weight: 300;
+	text-transform: uppercase;
+	font-size: 16px;
+	letter-spacing: 2px;
+	padding-bottom: 20px;
+}
+
+.bordered-content h3 {
+	font-size: 20px;
+	background: #fff;
+	display: inline-block;
+	padding: 0 10px;
+	margin-bottom: 5px;
+}
+.team-title {
+	margin-top: -10px;
+}
+.col-md-4:nth-child(2) .single-team-member {
+	margin-top: 100px;
+}
+
+.section-padding {
+	padding: 80px 0;
+}
