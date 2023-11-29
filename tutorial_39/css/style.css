@@ -1,0 +1,151 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;1,600&family=Roboto:wght@300;400;500;700;900&display=swap");
+
+input:focus,
+textarea:focus,
+button:focus {
+	outline: 0 solid;
+}
+img {
+	max-width: 100%;
+	height: auto;
+
+	background-repeat: no-repeat;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin: 0 0 15px;
+	font-weight: 900;
+}
+html,
+body {
+	font-family: "Opens Sans", sans-serif;
+}
+
+a:hover {
+	text-decoration: none;
+}
+body {
+	background: #f5f6fa;
+}
+
+.gradient-overlay-wrapper {
+	background-image: url(../assets/images/brush-stoke-image.jpg);
+}
+.gradient-overlay-wrapper:after {
+	background: linear-gradient(135deg, #382cd6 0%, #d9aec2 100%);
+}
+.gradient-overlay-wrapper {
+	position: relative;
+	z-index: 1;
+}
+
+.gradient-overlay-wrapper:after {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 100%;
+	height: 100%;
+	content: "";
+	z-index: -1;
+	opacity: 0.9;
+}
+.logo {
+	max-width: 165px;
+	max-height: 100px;
+}
+.logo img {
+	width: 100px;
+}
+.main-menu ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-align: right;
+}
+
+.main-menu li {
+	display: inline-block;
+}
+
+.main-menu li a {
+	color: #fff;
+	opacity: 0.5;
+	transition: 0.3s;
+	display: block;
+	font-size: 16px;
+	font-weight: 300;
+	padding: 25px;
+}
+
+.main-menu li:hover a {
+	opacity: 1;
+}
+
+.header-area {
+	position: relative;
+	z-index: 1;
+	padding: 20px 0;
+}
+
+.header-area:after {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	height: 2px;
+	width: 100%;
+	content: "";
+	background: #fff;
+	opacity: 0.1;
+}
+
+.mobile-screen {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	max-height: 550px;
+}
+.hero-text {
+	max-width: 450px;
+	color: #fff;
+	font-size: 17px;
+	line-height: 1.8;
+	padding: 120px 0;
+}
+
+.hero-text h1 {
+	font-size: 45px;
+	font-weight: 300;
+	line-height: 1.2;
+	margin-bottom: 35px;
+}
+
+.hero-text p {
+	opacity: 0.6;
+}
+
+.hero-btns {
+	margin-top: 50px;
+}
+
+.bordered-btn {
+	border: 1px solid #ddd;
+}
+
+.underline-btn {
+	text-decoration: underline;
+}
+
+.hero-btns a {
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 12px;
+	font-weight: 700;
+	letter-spacing: 1px;
+	padding: 15px 35px;
+	border-radius: 50px;
+	display: inline-block;
+}
