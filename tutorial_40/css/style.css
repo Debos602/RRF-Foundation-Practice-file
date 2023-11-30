@@ -1,0 +1,177 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;1,600&family=Roboto:wght@300;400;500;700;900&display=swap");
+
+input:focus,
+textarea:focus,
+button:focus {
+	outline: 0 solid;
+}
+img {
+	max-width: 100%;
+	height: auto;
+
+	background-repeat: no-repeat;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin: 0 0 15px;
+	font-weight: 900;
+}
+html,
+body {
+	font-family: "Opens Sans", sans-serif;
+}
+
+a:hover {
+	text-decoration: none;
+}
+body {
+	background: #f5f6fa;
+}
+.section-bg-1 {
+	background-image: url(../assets/images/pexels-pixabay-53594.jpg);
+}
+.section-padding {
+	position: relative;
+	background-size: cover;
+	background-position: center top;
+	padding: 100px 0;
+}
+.price-box {
+	box-shadow: 0 0 20px #444;
+	overflow: hidden;
+}
+
+.single-price-box {
+	/* border-right: 1px solid #01489a; */
+	float: left;
+	width: 33.33333%;
+	position: relative;
+	z-index: 1;
+}
+
+.single-price-box:last-child {
+	border: none;
+}
+
+.price-box-image {
+	display: table;
+	width: 100%;
+	height: 140px;
+	color: 20px;
+}
+
+.price-box-image img {
+	max-width: 180px;
+	max-height: 165px;
+}
+
+.price-box-img-wrapper {
+	display: table-cell;
+	vertical-align: middle;
+	width: 100%;
+	text-align: center;
+}
+
+.price-box-inner {
+	background: #fff;
+	padding: 30px;
+	color: #3c76ac;
+	padding-left: 17px;
+	text-align: center;
+}
+
+.price-box-inner h2 {
+	text-align: center;
+	font-weight: 700;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+}
+
+.price-content span {
+	display: inline-block;
+	position: relative;
+	color: #d25529;
+	font-weight: 800;
+	font-size: 40px;
+}
+
+.price-content span:before {
+	content: "$";
+	font-size: 20px;
+	position: absolute;
+	left: -21px;
+	top: -2px;
+	font-weight: 400;
+}
+
+.price-content span:after {
+	content: "/mo";
+	font-weight: 400;
+	font-size: 20px;
+	margin-left: 5px;
+}
+
+.price-content span {
+}
+
+h3.price-content {
+	text-align: center;
+}
+
+.price-box-inner ul {
+	text-align: left;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	padding-left: 20px;
+	line-height: 27px;
+	font-size: 15px;
+	margin-bottom: 30px;
+}
+
+.boxed-btn {
+	background: #3c76cd;
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: 700;
+	padding: 10px 20px;
+	display: inline-block;
+	border-radius: 5px;
+}
+
+.boxed-btn:hover,
+.boxed-btn.active:hover {
+	background: #333;
+	color: #fff;
+}
+
+a {
+	transition: 0.3s;
+}
+
+.boxed-btn.active {
+	background: #d25529;
+}
+
+.single-price-box:after {
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 1px;
+	height: 100%;
+	content: "";
+	background: #333;
+	opacity: 0.2;
+}
+
+.single-price-box:last-child::after {
+	display: none;
+}
+
+.section-padding.section-bg-1 {
+	background-attachment: fixed;
+}
