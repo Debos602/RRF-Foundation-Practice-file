@@ -1,0 +1,222 @@
+@import url("https://fonts.googleapis.com/css2?family=Mr+De+Haviland&family=Roboto:ital,wght@0,400;0,500;0,700;1,400;1,700&display=swap");
+input:focus,
+textarea:focus,
+button:focus {
+	outline: 0 solid;
+}
+img {
+	max-width: 100%;
+	height: auto;
+	background-repeat: no-repeat;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin: 0 0 15px;
+	font-weight: 900;
+	font-family: "Roboto", sans-serif;
+}
+html,
+body {
+	height: 100%;
+}
+
+a:hover {
+	text-decoration: none;
+}
+.hero-area-logo h3 {
+	font-family: "Mr De Haviland", sans-serif;
+}
+.welcome-hero-area {
+	background-image: url(../assets/car-img/bg-img.png);
+}
+.welcome-hero-area {
+	height: 100%;
+	position: relative;
+	z-index: 1;
+}
+
+.header-area {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+
+.logo a {
+	text-transform: uppercase;
+	color: #fff;
+	position: relative;
+	display: inline-block;
+	z-index: 1;
+	padding-bottom: 5px;
+}
+
+.logo h1 {
+	font-weight: 400;
+	font-size: 25px;
+	letter-spacing: 4px;
+	margin: 0;
+}
+
+.logo a:after {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	height: 2px;
+	width: 100%;
+	content: "";
+	background: #fff;
+}
+.main-menu ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.main-menu li {
+	display: inline-block;
+	padding-left: 30px;
+}
+
+.main-menu li a {
+	display: inline-block;
+	color: #fff;
+	position: relative;
+	z-index: 1;
+	font-size: 18px;
+}
+
+.main-menu li a:after {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	height: 1px;
+	width: 100%;
+	background: #ffff;
+	content: "";
+}
+
+.main-menu {
+	margin-top: 3px;
+}
+
+.header-area {
+	padding: 15px 0;
+}
+
+.welcome-hero-area:after {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	content: "";
+	background: #333;
+	z-index: -1;
+	opacity: 0.5;
+}
+
+.hero-area-table {
+	height: 100%;
+	display: table;
+	width: 100%;
+}
+
+.hero-area-tablecell {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.scroll-top-bottom {
+	position: absolute;
+	left: 50%;
+	bottom: 30px;
+	color: #fff;
+	font-size: 40px;
+	height: 40px;
+	width: 40px;
+	margin-left: -20px;
+	opacity: 0.8;
+}
+
+.hero-area-logo h3 {
+	font-size: 100px;
+	color: #c49a5f;
+	line-height: 55px;
+	margin: 0;
+}
+
+.hero-area-logo h2 {
+	color: #fff;
+	font-size: 50px;
+	text-transform: uppercase;
+	letter-spacing: 10px;
+}
+.bordered-area i.far {
+	float: left;
+	margin: 0 20px;
+	color: #c4995f;
+	font-size: 15px;
+	/* margin-top: 7px; */
+}
+
+.bordered-area {
+	overflow: hidden;
+	max-width: 335px;
+	margin: 0 auto;
+}
+
+.bordered-area-left-border,
+.bordered-area-right-border {
+	float: left;
+	height: 2px;
+	width: 38%;
+	background: #ffff;
+	margin-top: 6px;
+	position: relative;
+}
+
+.hero-area-logo {
+	text-transform: uppercase;
+	color: #fff;
+}
+
+.hero-area-logo p {
+	margin-top: 15px;
+}
+
+.hero-area-logo h3 {
+	text-transform: none;
+}
+.bordered-area-right-border {
+	margin-right: 10px;
+}
+.bordered-area-right-border::before {
+	width: 0;
+	height: 0;
+	border-top: 5px solid transparent;
+	border-right: 10px solid #fff;
+	border-bottom: 5px solid transparent;
+	position: absolute;
+	top: -4px;
+	right: -7px;
+	content: "";
+}
+.bordered-area-left-border {
+	margin-left: 10px;
+}
+.bordered-area-left-border::before {
+	width: 0;
+	height: 0;
+	border-top: 5px solid transparent;
+	border-left: 10px solid #fff;
+	border-bottom: 5px solid transparent;
+	position: absolute;
+	top: -4px;
+	left: -7px;
+	content: "";
+}
