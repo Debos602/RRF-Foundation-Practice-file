@@ -1,0 +1,267 @@
+@import url("https://fonts.googleapis.com/css2?family=Mr+De+Haviland&family=Roboto:ital,wght@0,400;0,500;0,700;1,400;1,700&display=swap");
+input:focus,
+textarea:focus,
+button:focus {
+	outline: 0 solid;
+}
+img {
+	max-width: 100%;
+	height: auto;
+	background-repeat: no-repeat;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin: 0 0 15px;
+	font-weight: 900;
+	font-family: "Roboto", sans-serif;
+}
+html,
+body {
+	height: 100%;
+}
+
+a:hover {
+	text-decoration: none;
+}
+.dark-bg {
+	background: #343434;
+	color: #a5a5a5;
+}
+
+.tailor-text {
+	font-size: 16px;
+	line-height: 1.7;
+	padding-top: 50px;
+}
+
+.tailor-text h2 {
+	font-size: 35px;
+	color: #fff;
+	line-height: 50px;
+	text-transform: uppercase;
+	margin-bottom: 50px;
+	font-weight: 500;
+}
+.bordered-btn {
+	display: inline-block;
+	border: 2px solid #ff5151;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 12px;
+	font-family: "Roboto";
+	padding: 8px 15px;
+	width: 150px;
+	margin-top: 30px;
+}
+
+.bordered-btn i.fas {
+	float: right;
+	padding-top: 4px;
+}
+.section-padding {
+	padding: 80px 0;
+}
+
+.tailor-info {
+	position: relative;
+	text-align: right;
+}
+
+.color-pricing-box {
+	position: absolute;
+	right: 140px;
+	background: #ff5151;
+	text-align: center;
+	color: #fff;
+	text-transform: uppercase;
+	width: 200px;
+	padding-top: 50px;
+	height: 300px;
+}
+
+.color-pricing-box p {
+	opacity: 0.5;
+}
+
+.color-pricing-box p.price-text {
+	color: #fff;
+	font-family: "Roboto";
+	opacity: 1;
+	font-size: 30px;
+}
+
+a.absolute-shopping-cart {
+	position: absolute;
+	left: -25px;
+	top: 35px;
+	width: 50px;
+	height: 50px;
+	background: #fff;
+	line-height: 50px;
+	font-size: 16px;
+	box-shadow: 0 0 10px #333;
+}
+
+.tailor-info img {
+	position: relative;
+	z-index: 1;
+	padding-top: 112px;
+}
+div.owl-carousel .owl-item .tailor-info img {
+	width: auto;
+	display: inline-block;
+}
+.featured-tailor-carousel .owl-dots div:nth-child(1) span:before {
+	content: "01";
+}
+.featured-tailor-carousel .owl-dots div:nth-child(2) span:before {
+	content: "02";
+}
+.featured-tailor-carousel .owl-dots div:nth-child(3) span:before {
+	content: "03";
+}
+@import url("https://fonts.googleapis.com/css2?family=Mr+De+Haviland&family=Roboto:ital,wght@0,400;0,500;0,700;1,400;1,700&display=swap");
+input:focus,
+textarea:focus,
+button:focus {
+	outline: 0 solid;
+}
+img {
+	max-width: 100%;
+	height: auto;
+	background-repeat: no-repeat;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin: 0 0 15px;
+	font-weight: 900;
+	font-family: "Roboto", sans-serif;
+}
+html,
+body {
+	height: 100%;
+}
+
+a:hover {
+	text-decoration: none;
+}
+.dark-bg {
+	background: #343434;
+	color: #a5a5a5;
+}
+
+.tailor-text {
+	font-size: 16px;
+	line-height: 1.7;
+	padding-top: 50px;
+}
+
+.tailor-text h2 {
+	font-size: 35px;
+	color: #fff;
+	line-height: 50px;
+	text-transform: uppercase;
+	margin-bottom: 50px;
+	font-weight: 500;
+}
+.bordered-btn {
+	display: inline-block;
+	border: 2px solid #ff5151;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 12px;
+	font-family: "Roboto";
+	padding: 8px 15px;
+	width: 150px;
+	margin-top: 30px;
+}
+
+.bordered-btn i.fas {
+	float: right;
+	padding-top: 4px;
+}
+.section-padding {
+	padding: 80px 0;
+}
+
+.tailor-info {
+	position: relative;
+	text-align: right;
+}
+
+.color-pricing-box {
+	position: absolute;
+	right: 140px;
+	background: #ff5151;
+	text-align: center;
+	color: #fff;
+	text-transform: uppercase;
+	width: 200px;
+	padding-top: 50px;
+	height: 300px;
+}
+
+.color-pricing-box p {
+	opacity: 0.5;
+}
+
+.color-pricing-box p.price-text {
+	color: #fff;
+	font-family: "Roboto";
+	opacity: 1;
+	font-size: 30px;
+}
+
+a.absolute-shopping-cart {
+	position: absolute;
+	left: -25px;
+	top: 35px;
+	width: 50px;
+	height: 50px;
+	background: #fff;
+	line-height: 50px;
+	font-size: 16px;
+	box-shadow: 0 0 10px #333;
+}
+
+.tailor-info img {
+	position: relative;
+	z-index: 1;
+	padding-top: 112px;
+}
+div.owl-carousel .owl-item .tailor-info img {
+	width: auto;
+	display: inline-block;
+}
+.featured-tailor-carousel .owl-dots div:nth-child(1) span:before {
+	content: "01";
+}
+.featured-tailor-carousel .owl-dots div:nth-child(2) span:before {
+	content: "02";
+}
+.featured-tailor-carousel .owl-dots div:nth-child(3) span:before {
+	content: "03";
+}
+.featured-tailor-carousel .owl-dots div {
+	border-left: 2px solid #444;
+	padding: 20px 15px;
+}
+
+.featured-tailor-carousel .owl-dots div.active {
+	border-color: #ff5151;
+}
+
+.featured-tailor-carousel .owl-dots {
+	position: absolute;
+	top: 50%;
+	right: -85px;
+	margin-top: -91px;
+}
