@@ -1,0 +1,146 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Roboto:ital,wght@0,400;0,500;0,700;1,400;1,700&display=swap");
+textarea:focus,
+button:focus {
+	outline: 0 solid;
+}
+img {
+	max-width: 100%;
+	height: auto;
+	background-repeat: no-repeat;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin: 0 0 15px;
+	font-weight: 900;
+	font-family: "Roboto", sans-serif;
+}
+html,
+body {
+	height: 100%;
+}
+
+a:hover {
+	text-decoration: none;
+}
+.pricing-tables {
+	overflow: hidden;
+	padding-bottom: 30px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 30px;
+}
+
+.single-pricing-box {
+	width: 33.3333%;
+	float: left;
+	box-shadow: 0 0 10px #f3f3f3;
+	position: relative;
+	z-index: 1;
+	background: #fff;
+	margin-top: 30px;
+}
+
+body {
+	line-height: 1.7;
+	font-size: 17px;
+	color: #737678;
+}
+
+.pricing-heading {
+	background: #f9f9f9;
+	color: #898888;
+	font-size: 17px;
+	padding: 40px;
+	/* margin-top: 30px; */
+}
+
+.pricing-heading h4 {
+	color: #888888;
+	font-weight: 400;
+	font-size: 30px;
+}
+
+.pricing-heading h1 {
+	font-size: 50px;
+	color: #333333;
+	font-weight: 400;
+}
+
+.single-pricing-box.active {
+	margin-top: 0;
+}
+
+.pricing-heading {
+}
+
+.pricing-content {
+	padding: 60px;
+}
+
+.pricing-content ul {
+	margin: 0;
+	padding: 0;
+	line-height: 35px;
+	list-style: none;
+}
+
+.pricing-btn {
+	display: inline-block;
+	border: 1px solid #f91942;
+	color: #f91942;
+	padding: 15px 30px;
+	border-radius: 50px;
+	margin-top: 50px;
+}
+
+.active .pricing-heading {
+	background: #f91942;
+	color: #fff;
+	margin-top: 0;
+}
+
+.active .pricing-heading h4 {
+	color: #fff;
+}
+
+.active .pricing-heading h4,
+.active .pricing-heading h1 {
+	color: #fff;
+}
+
+.section-padding {
+	padding: 100px 0;
+}
+
+.single-pricing-box.active {
+	position: relative;
+	z-index: 2;
+	margin-right: -0.5%;
+	margin-left: -0.5%;
+	width: 34.3333%;
+	overflow: hidden;
+}
+.active .pricing-content {
+	padding: 70px 60px;
+}
+
+.active a.pricing-btn {
+	background: #f91942;
+	color: #fff;
+}
+.active .pricing-heading:after {
+	content: "featured";
+	position: absolute;
+	right: -38px;
+	top: 22px;
+	color: #f91942;
+	background: #fff;
+	transform: rotate(45deg);
+	font-size: 14px;
+	padding: 5px 50px;
+	overflow: hidden;
+}
