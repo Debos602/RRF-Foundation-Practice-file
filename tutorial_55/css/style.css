@@ -274,14 +274,22 @@ a:hover {
 .video-top-des span:before {
 	position: absolute;
 	top: 50%;
-	left: -36px;
+	left: -100px;
 	height: 2px;
 	width: 30px;
 	margin-top: -1px;
 	background: #fff;
 	content: "";
+	transition: 0.5s;
+}
+
+.video-play-btn:hover .video-top-des span:before {
+	left: -36px;
+}
+.video-play-btn:hover .video-top-des span:after {
+	right: -36px;
 }
 .video-top-des span:after {
 	left: auto;
-	right: -36px;
+	right: -100px;
 }
