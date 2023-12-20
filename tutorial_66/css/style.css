@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Roboto:ital,wght@0,400;0,500;0,700;1,400;1,700&display=swap");
+textarea:focus,
+button:focus {
+	outline: 0 solid;
+}
+img {
+	max-width: 100%;
+	height: auto;
+	background-repeat: no-repeat;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin: 0 0 15px;
+	font-weight: 900;
+	font-family: "Roboto", sans-serif;
+}
+html,
+body {
+	height: 100%;
+}
+
+a {
+	text-decoration: none;
+}
+.section-title {
+	text-align: center;
+	margin-bottom: 130px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	color: #4c4cba;
+	font-weight: 400;
+}
+
+.features-wrap {
+	position: relative;
+	z-index: 1;
+	padding-bottom: 130px;
+}
+img.hand-absolute {
+	position: absolute;
+	right: -100px;
+	bottom: 0;
+}
+
+.features-area {
+	padding-top: 100px;
+}
+
+h3 {
+	font-size: 20px;
+	margin-bottom: 22px;
+}
+.section-title i.fa-solid {
+	font-size: 50px;
+	color: coral;
+}
+.main-menu-area ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.main-menu-area li {
+	display: inline-block;
+	position: relative;
+}
+
+.main-menu-area li a {
+	display: block;
+	padding: 20px;
+	color: #fff;
+}
+
+.main-menu-area {
+	background: #4c4b8a;
+
+	width: 100%;
+	z-index: 99;
+}
+.main-menu i.fa-solid {
+	font-size: 35px;
+}
+
+.main-menu {
+	width: 100%;
+	z-index: 99;
+	background: pink;
+}
+.main-menu {
+	width: 100%;
+	z-index: 999;
+}
+.is-sticky {
+	z-index: 999;
+	position: relative;
+}
