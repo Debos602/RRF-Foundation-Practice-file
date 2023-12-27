@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Roboto:ital,wght@0,400;0,500;0,700;1,400;1,700&display=swap");
+textarea:focus,
+button:focus {
+	outline: 0 solid;
+}
+img {
+	max-width: 100%;
+	height: auto;
+	background-repeat: no-repeat;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin: 0 0 15px;
+	font-weight: 900;
+	font-family: "Roboto", sans-serif;
+}
+html,
+body {
+	height: 100%;
+}
+
+a:hover {
+	text-decoration: none;
+}
+.feature-1 .feature-bg {
+	background-image: url(../assets/eat&drink/img1.jpg);
+}
+.feature-2 .feature-bg {
+	background-image: url(../assets/eat&drink/img2.jpg);
+}
+.feature-3 .feature-bg {
+	background-image: url(../assets/eat&drink/img3.jpg);
+}
+.feature-4 .feature-bg {
+	background-image: url(../assets/eat&drink/img4.jpg);
+}
+.single-featured-item {
+	position: relative;
+	z-index: 1;
+}
+
+.feature-bg {
+	position: absolute;
+	left: 25%;
+	width: 50%;
+	height: 100%;
+	content: "";
+	background-size: cover;
+	background-position: center;
+	background-color: #ddd;
+	bottom: -50px;
+}
+.section-padding {
+	padding: 80px 0;
+}
+
+.single-feature-item-text {
+	background: #fff;
+	box-shadow: 0 0 10px #ddd;
+	padding: 40px;
+	padding-left: 120px;
+	border-bottom: 2px solid #fe5d3e;
+}
+
+.single-feature-item-text h2 {
+	font-size: 25px;
+	font-weight: 600;
+	color: #000;
+}
+
+.single-feature-item-text {
+	position: relative;
+}
+
+.feature-no {
+	position: absolute;
+	left: 40px;
+	top: 6px;
+	font-size: 60px;
+	opacity: 0.3;
+	z-index: 1;
+}
+
+.feature-no:after {
+	content: "";
+	position: absolute;
+	right: 11px;
+	top: -2px;
+	height: 72px;
+	width: 2px;
+	background: #333;
+	transform: rotate(45deg);
+}
+.feature-2 .single-feature-item-text {
+	border-color: #2ac893;
+}
+
+.feature-4 .single-feature-item-text {
+	border-color: #2ac899;
+}
