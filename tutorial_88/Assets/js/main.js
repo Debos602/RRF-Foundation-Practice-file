@@ -6,4 +6,12 @@ jQuery(document).ready(function ($) {
 		dots: true,
 		autoplay: false,
 	});
+	$(".logo-carousel").owlCarousel({
+		items: 5,
+		margin: 30,
+		loop: true,
+		nav: false,
+		dots: true,
+		autoplay: false,
+	});
 });

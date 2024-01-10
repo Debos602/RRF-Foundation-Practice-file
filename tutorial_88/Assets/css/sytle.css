@@ -23,7 +23,7 @@ body {
 	color: #333333;
 	line-height: 1.8;
 }
-a:hover {
+a {
 	text-decoration: none;
 }
 .header-top {
@@ -207,6 +207,9 @@ a:hover {
 	text-align: center;
 	transition: 0.3s;
 }
+.service-box-bg {
+	background-image: url(../img/b.jpg);
+}
 
 .service-box-content {
 	border: 1px solid #d1cfcf;
@@ -284,4 +287,221 @@ img {
 
 .about-text {
 	padding: 15px 0;
+}
+.cta-area {
+	background: #fc721e;
+	color: #fff;
+	padding: 60px 0;
+}
+
+.cta-area h2 {
+	font-size: 20px;
+	margin: 11px 0;
+}
+
+.cta-area .boxed-btn {
+	background-color: #fff;
+	color: #333;
+}
+
+.single-project-item {
+	position: relative;
+	padding-left: 260px;
+	margin-bottom: 30px;
+	padding-top: 70px;
+	padding-bottom: 40px;
+}
+
+.project-bg {
+	background-size: cover;
+	background-position: center;
+	background-color: #ddd;
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 230px;
+}
+.project-bg-1 {
+	background-image: url(../img/a.jpg);
+}
+.single-project-item h3 {
+	font-size: 20px;
+	margin-bottom: 20px;
+	font-weight: 600;
+}
+
+.inline-btn {
+	font-weight: 600;
+	color: #333;
+}
+
+.inline-btn i {
+	padding-left: 5px;
+}
+
+.project-bg:after {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	content: "";
+	background: #333;
+	opacity: 0;
+	visibility: hidden;
+}
+
+.single-project-item:hover .project-bg:after {
+	opacity: 0.3;
+	visibility: visible;
+}
+
+.single-project-item:hover h2,
+.single-project-item:hover .inline-btn {
+	color: #fc721e;
+}
+.padding-top-0 {
+	padding-top: 0;
+}
+
+.team-thumbnail {
+	height: 305px;
+	background-color: #ddd;
+	background-size: cover;
+	background-position: center top;
+	margin-bottom: 10px;
+	position: relative;
+	z-index: 2;
+}
+
+.team-info {
+	border: 1px solid #dcdbdb;
+	padding: 20px;
+	text-align: center;
+}
+
+.team-info h3 {
+	font-size: 20px;
+	font-weight: 600;
+}
+
+.team-social-links a {
+	height: 35px;
+	width: 35px;
+	display: inline-block;
+	border: 1px solid;
+	color: #333;
+	line-height: 33px;
+	margin: 0 2px;
+}
+
+.team-thumbnail:after {
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	content: "";
+	background: #1d1109;
+	z-index: -1;
+	opacity: 0;
+	visibility: hidden;
+	transition: 0.3s;
+}
+.single-team-member:hover .team-thumbnail:after {
+	visibility: visible;
+	opacity: 0.5;
+}
+.team-thumbnail {
+	background-image: url(../img/download.jpg);
+}
+.team-social-links a:hover {
+	color: #fc721e;
+}
+.single-logo-wrap {
+	height: 120px;
+	width: 100%;
+}
+
+.single-logo-item {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.single-logo-wrap img,
+.owl-carousel .owl-item .single-logo-wrap {
+	max-width: 120px;
+	width: auto;
+	margin: 0 auto;
+}
+
+.logo-carousel-area {
+	border-top: 1px solid #d7d5d5;
+	border-bottom: 1px solid #d7d5d5;
+	padding: 50px 0;
+	margin-bottom: 90px;
+}
+
+.site-footer {
+	background-color: #000000;
+}
+
+.site-footer,
+.site-footer a {
+	color: #8c8e8e;
+}
+
+.site-footer .about-text {
+	padding: 0;
+	padding-right: 40px;
+}
+.widget-title {
+	padding-bottom: 15px;
+	margin-bottom: 36px;
+	position: srel;
+}
+
+.email-subscribe {
+	background-color: #222222;
+}
+
+.email-subscribe input,
+.email-subscribe button {
+	background: none;
+	border: none;
+	padding: 10px;
+	color: #fff;
+}
+
+.email-subscribe button {
+	float: right;
+	width: 20%;
+}
+
+.email-subscribe input {
+	width: 79%;
+}
+
+input:focus,
+button:focus,
+a:focus,
+textarea:focus {
+	outline: none;
+}
+.widget-title {
+	position: relative;
+	color: #fff;
+	font-size: 20px;
+	font-weight: 600;
+}
+
+.widget-title:after {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	height: 1px;
+	width: 50px;
+	background: #fc721e;
+	content: "";
 }
