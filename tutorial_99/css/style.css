@@ -1,0 +1,90 @@
+/*Base css*/
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+a:focus,
+input:focus,
+textarea:focus,
+button:focus {
+	outline: 0 solid;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h5 {
+	margin: 0 0 15px;
+	font-weight: 700;
+}
+html,
+body {
+	height: 100%;
+}
+body {
+}
+a:hover {
+	text-decoration: none;
+}
+.section-padding {
+	padding: 80px 0;
+}
+.service-box-bg-1 {
+	background-image: url(../assets/a.jpg);
+}
+.service-box-bg-2 {
+	background-image: url(../assets/b.jpg);
+}
+.service-box-bg-3 {
+	background-image: url(../assets/c.jpg);
+}
+.service-box-bg {
+	background-color: #ddd;
+	background-position: center;
+	background-size: cover;
+	height: 220px;
+}
+.service-box-inner {
+	border: 1px solid #f3f3f3;
+	border-top: 0px solid;
+	padding: 20px;
+	text-align: center;
+	padding-bottom: 40px;
+}
+
+.single-service-box {
+	position: relative;
+}
+
+.service-box-more-wrap {
+	position: absolute;
+	bottom: -20px;
+	left: 0;
+	width: 100%;
+	text-align: center;
+}
+
+.service-box-inner h3 {
+	font-size: 20px;
+	text-transform: uppercase;
+}
+
+.service-meta {
+	opacity: 0.5;
+	text-transform: uppercase;
+	font-size: 12px;
+	margin: 0;
+}
+
+.bordered-btn {
+	display: inline-block;
+	border: 1px solid #f3f3f3;
+	color: #999;
+	font-weight: 700;
+	text-transform: uppercase;
+	padding: 10px 30px;
+	background: #fff;
+}
