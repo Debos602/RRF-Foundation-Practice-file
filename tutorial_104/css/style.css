@@ -1,0 +1,226 @@
+/*Base css*/
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+a:focus,
+input:focus,
+textarea:focus,
+button:focus {
+	outline: 0 solid;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h5 {
+	margin: 0 0 15px;
+	font-weight: 700;
+}
+html,
+body {
+	height: 100%;
+	font-weight: 300;
+}
+body {
+}
+a:hover {
+	text-decoration: none;
+}
+.section-padding {
+	padding: 80px 0;
+}
+.product-bg-1 {
+	background-image: url(../assets/image/man1.jpg);
+}
+.product-bg-2 {
+	background-image: url(../assets/image/man2.jpg);
+}
+.product-bg-3 {
+	background-image: url(../assets/image/man3.jpg);
+}
+.product-bg-4 {
+	background-image: url(../assets/image/man4.jpg);
+}
+.product-bg-5 {
+	background-image: url(../assets/image/man5.jpg);
+}
+.section-title {
+	margin-bottom: 50px;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.product-bg {
+	background-size: cover;
+	background-position: center top;
+	background-color: #ddd;
+	height: 330px;
+	position: relative;
+	z-index: 2;
+}
+/*Base css*/
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+a:focus,
+input:focus,
+textarea:focus,
+button:focus {
+	outline: 0 solid;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h5 {
+	margin: 0 0 15px;
+	font-weight: 700;
+}
+html,
+body {
+	height: 100%;
+	font-weight: 300;
+}
+body {
+}
+a:hover {
+	text-decoration: none;
+}
+.section-padding {
+	padding: 80px 0;
+}
+.product-bg-1 {
+	background-image: url(../assets/image/man1.jpg);
+}
+.product-bg-2 {
+	background-image: url(../assets/image/man2.jpg);
+}
+.product-bg-3 {
+	background-image: url(../assets/image/man3.jpg);
+}
+.product-bg-4 {
+	background-image: url(../assets/image/man4.jpg);
+}
+.product-bg-5 {
+	background-image: url(../assets/image/man5.jpg);
+}
+.section-title {
+	margin-bottom: 50px;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.product-bg {
+	background-size: cover;
+	background-position: center top;
+	background-color: #ddd;
+	height: 330px;
+	position: relative;
+	z-index: 2;
+	margin-bottom: 20px;
+}
+.ticker {
+	position: absolute;
+	right: 15px;
+	top: 15px;
+	background: #333;
+	color: #fff;
+	height: 40px;
+	width: 40px;
+	font-size: 10px;
+	text-align: center;
+	text-transform: uppercase;
+	line-height: 40px;
+	border-radius: 50%;
+}
+
+.ticker-green {
+	background-color: #34b97d;
+}
+
+.ticker-red {
+	background-color: #f55151;
+}
+
+.product-bottom-hover {
+	position: absolute;
+	left: 50%;
+	width: 200px;
+	margin-left: -100px;
+	bottom: -22px;
+	background: #fff;
+	border-right: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
+	transition: 0.3s;
+	opacity: 0;
+	visibility: hidden;
+}
+
+.product-bottom-hover a {
+	display: block;
+	float: left;
+	width: 33.3333%;
+	border-left: 1px solid #ddd;
+	border-top: 1px solid #ddd;
+	text-align: center;
+	color: #333;
+	padding: 13px;
+}
+
+.product-bottom-hover a:hover {
+	background-color: #333;
+	color: #fff;
+}
+
+.single-product-box {
+	text-align: center;
+}
+
+.single-product-box h4 {
+	font-size: 16px;
+	font-weight: 400;
+	margin-bottom: 10px;
+}
+
+.product-price {
+	font-size: 110%;
+	font-weight: 700;
+	margin: 0;
+}
+
+.single-product-box:hover .product-bottom-hover {
+	opacity: 1;
+	visibility: visible;
+	bottom: 30px;
+}
+.product-carousel .owl-nav button {
+	position: absolute;
+	top: 50%;
+	left: -4%;
+	margin-top: -63px;
+	opacity: 0.5;
+}
+
+.product-carousel .owl-nav button i {
+	background: #333;
+	color: #fff;
+	height: 30px;
+	width: 30px;
+	text-align: center;
+	line-height: 30px;
+	border-radius: 50%;
+	font-size: 18px;
+}
+
+.product-carousel .owl-nav button.owl-next {
+	left: auto;
+	right: -4%;
+}
