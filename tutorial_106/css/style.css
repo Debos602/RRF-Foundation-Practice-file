@@ -1,0 +1,182 @@
+/*Base css*/
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap");
+a:focus,
+input:focus,
+textarea:focus,
+button:focus {
+	outline: 0 solid;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h5 {
+	margin: 0 0 15px;
+	font-weight: 700;
+}
+html,
+body {
+	height: 100%;
+	font-weight: 900;
+	font-family: "Open Sans", sans-serif;
+}
+
+a:hover {
+	text-decoration: none;
+}
+.slide-bg-1 {
+	background-image: url(../assets/image/man1.jpg);
+}
+.slide-bg-2 {
+	background-image: url(../assets/image/man2.jpg);
+}
+.slide-bg-3 {
+	background-image: url(../assets/image/man3.jpg);
+}
+
+.boxed-btn,
+.welcome-area::after {
+	background: linear-gradient(to right, #035a95 0%, #0497bc 100%);
+}
+.welcome-area:after {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 65%;
+	content: "";
+	z-index: -1;
+}
+
+.logo a,
+.main-menu a {
+	color: #fff;
+}
+
+.logo {
+	font-size: 25px;
+	text-transform: uppercase;
+	font-weight: 600;
+	padding-top: 10px;
+}
+.logo a i {
+	margin-right: 10px;
+}
+.main-menu ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.main-menu li {
+	display: inline-block;
+	position: relative;
+}
+
+.main-menu li a {
+	display: block;
+	padding: 17px;
+	text-transform: uppercase;
+	font-size: 12px;
+}
+
+.header-right-content a {
+	color: #000;
+}
+
+.social-links {
+	display: inline-block;
+	margin-right: 50px;
+	border-left: #efefef;
+	padding-left: 20px;
+	margin-left: 20px;
+}
+
+.social-links a {
+	font-size: 14px;
+	display: inline-block;
+	padding: 0 4px;
+}
+
+.header-right-content {
+	padding-top: 16px;
+}
+.header-area {
+	padding: 30px 0;
+}
+.single-slide-item {
+	height: 500px;
+	background-size: cover;
+	background-position: center top;
+	background-color: #000;
+	display: table;
+	width: 100%;
+	position: relative;
+	z-index: 1;
+}
+.single-slide-item:after {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	content: "";
+	background: #000;
+	z-index: -1;
+	opacity: 0.5;
+	mix-blend-mode: multiply;
+}
+
+.welcome-area {
+	padding-bottom: 100px;
+	position: relative;
+	z-index: 1;
+}
+.slide-inner {
+	display: table-cell;
+	vertical-align: middle;
+	width: 100%;
+}
+
+.slide-text {
+	max-width: 700px;
+	color: #fff;
+	padding: 130px;
+}
+
+.slide-text h4 {
+	color: #5fb7d0;
+	text-transform: uppercase;
+	font-size: 10px;
+	font-weight: 700;
+}
+.slide-text h2 {
+	margin-bottom: 50px;
+	font-weight: 400;
+	font-size: 50px;
+}
+
+.boxed-btn {
+	text-transform: uppercase;
+	font-size: 12px;
+	padding: 16px 40px;
+	display: inline-block;
+	color: #fff;
+}
+.homepage-slides .owl-nav button i {
+	color: #fff;
+	display: inline-block;
+	margin-right: 20px;
+	font-size: 20px;
+	margin-top: 20px;
+	opacity: 0.5;
+}
+.homepage-slides .owl-nav {
+	text-align: center;
+}
