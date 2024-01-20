@@ -1,0 +1,139 @@
+/*Base css*/
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap");
+a:focus,
+input:focus,
+textarea:focus,
+button:focus {
+	outline: 0 solid;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h5 {
+	margin: 0 0 15px;
+	font-weight: 700;
+}
+html,
+body {
+	height: 100%;
+	font-family: "Open Sans", sans-serif;
+}
+
+a:hover {
+	text-decoration: none;
+}
+.section-padding {
+	padding: 80px 0;
+}
+.portfolio-bg-1 {
+	background-image: url(../assets/image/man1.jpg);
+}
+.portfolio-bg-2 {
+	background-image: url(../assets/image/man2.jpg);
+}
+.portfolio-bg-3 {
+	background-image: url(../assets/image/man3.jpg);
+}
+.portfolio-bg-4 {
+	background-image: url(../assets/image/man4.jpg);
+}
+.portfolio-bg-5 {
+	background-image: url(../assets/image/man5.jpg);
+}
+.portfolio-bg-6 {
+	background-image: url(../assets/image/man6.jpg);
+}
+
+.single-portfolio-item:after {
+	background: linear-gradient(to right, #1e5799 0%, #ffffff 2%, #000000 100%);
+}
+.portfolio-list {
+	overflow: hidden;
+}
+
+.single-portfolio-item {
+	float: left;
+	width: 33.3333%;
+	height: 300px;
+	background-size: cover;
+	background-position: center;
+	background-color: #ddd;
+	position: relative;
+	z-index: 2;
+}
+
+.single-portfolio-item.large-bg {
+	height: 600px;
+}
+
+.portfolio-hover {
+	padding: 20px;
+	font-size: 12px;
+	color: #fff;
+	position: absolute;
+	left: 0;
+	bottom: -50px;
+	width: 100%;
+	opacity: 0;
+	visibility: hidden;
+	transition: 0.3s;
+}
+
+.portfolio-hover h4 {
+	text-transform: uppercase;
+	font-size: 15px;
+	margin-bottom: 10px;
+}
+
+.single-portfolio-item:after {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	content: "";
+	z-index: -1;
+	opacity: 0;
+	transition: 0.3s;
+}
+
+.single-portfolio-item:hover:after {
+	opacity: 0.8;
+}
+
+.single-portfolio-item:hover .portfolio-hover {
+	visibility: visible;
+	opacity: 1;
+	bottom: 0;
+}
+.portfolio-filter {
+	margin: 0;
+	padding: 30px 0;
+	list-style: none;
+}
+.portfolio-filter li.active {
+	color: red;
+}
+
+.portfolio-filter li {
+	display: inline-block;
+	padding-right: 20px;
+	cursor: pointer;
+}
+
+.portfolio-filter li:after {
+	content: "/";
+	padding-left: 20px;
+	color: #000000;
+}
+
+.portfolio-filter li:last-child:after {
+	display: none;
+}
