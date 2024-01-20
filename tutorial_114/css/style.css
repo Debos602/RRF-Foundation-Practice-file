@@ -1,0 +1,89 @@
+/*Base css*/
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap");
+a:focus,
+input:focus,
+textarea:focus,
+button:focus {
+	outline: 0 solid;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h5 {
+	margin: 0 0 15px;
+}
+html,
+body {
+	/* height: 100%; */
+	font-family: "Open Sans", sans-serif;
+}
+
+a:hover {
+	text-decoration: none;
+}
+.section-padding {
+	padding: 80px 0;
+}
+.section-bg-1 {
+	background-image: url(../assets/backgroundImage/a.jpg);
+}
+.single-service-box {
+	background-image: url(../assets/backgroundImage/c.jpg);
+}
+.section-padding {
+	position: relative;
+	z-index: 2;
+	background-size: cover;
+	background-position: center;
+}
+
+.section-overlays:after,
+.single-service-box:after {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	content: "";
+	background: #ffce46;
+	z-index: -1;
+	opacity: 0.8;
+}
+
+.single-service-box {
+	display: table;
+	width: 100%;
+	height: 200px;
+	margin-bottom: 30px;
+	position: relative;
+	z-index: 1;
+	text-align: center;
+	background-position: center;
+	background-size: cover;
+	background-color: #002732;
+}
+
+.service-box-wrap {
+	display: table-cell;
+	vertical-align: middle;
+	padding: 20px;
+	text-transform: uppercase;
+	color: #fff;
+}
+
+.single-service-box:after {
+	background-color: #002732;
+}
+.single-service-box:hover {
+	background-size: 130%;
+}
+.single-service-box:hover:after {
+	opacity: 0.3;
+}
