@@ -1,0 +1,100 @@
+/*Base css*/
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap");
+a:focus,
+input:focus,
+textarea:focus,
+button:focus {
+	outline: 0 solid;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h5 {
+	margin: 0 0 15px;
+	font-weight: 700;
+}
+html,
+body {
+	/* height: 100%; */
+	font-family: "Open Sans", sans-serif;
+}
+.container {
+	position: relative;
+	overflow: hidden;
+}
+
+a:hover {
+	text-decoration: none;
+}
+.section-padding {
+	padding: 80px 0;
+}
+.section-title h2 {
+	position: relative;
+	z-index: 1;
+	font-size: 35px;
+}
+
+.section-title h2:after {
+	position: absolute;
+	left: -12px;
+	top: 0;
+	height: 100%;
+	width: 5px;
+	content: "";
+	background: #ffce44;
+}
+.section-title {
+	margin-bottom: 40px;
+}
+
+.service-icon {
+	color: #ffce46;
+	font-size: 50px;
+}
+
+.single-service-box h3 {
+	color: #4555b9;
+}
+
+.single-service-box {
+	margin: 50px;
+}
+
+.border-box {
+	border: 7px solid #ffce46;
+	padding: 40px;
+	margin-left: 30px;
+	margin-top: 100px;
+	margin-right: 100px;
+}
+
+.border-box-img {
+	margin-top: -140px;
+	margin-bottom: 40px;
+	margin-right: -140px;
+	width: 470px;
+	max-width: 140%;
+}
+
+.bordered-box {
+	position: absolute;
+	transform: rotate(270deg);
+	text-transform: uppercase;
+	font-weight: 700;
+	color: #4555b9;
+	font-size: 18px;
+	bottom: 50px;
+	right: 14px;
+}
+
+a.bordered-box i {
+	margin-right: 10px;
+}
