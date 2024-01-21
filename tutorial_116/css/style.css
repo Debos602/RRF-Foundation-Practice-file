@@ -1,0 +1,104 @@
+/*Base css*/
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap");
+a:focus,
+input:focus,
+textarea:focus,
+button:focus {
+	outline: 0 solid;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h5 {
+	margin: 0 0 15px;
+}
+html,
+body {
+	/* height: 100%; */
+	font-family: "Open Sans", sans-serif;
+}
+
+a,
+a:focus,
+a:hover {
+	text-decoration: none;
+}
+.section-padding {
+	padding: 80px 0;
+}
+.features-menu {
+	margin: 0 0 100px;
+	padding: 0;
+	list-style: none;
+	text-align: center;
+}
+.features-menu li.active a {
+	border-color: #ffcd46;
+}
+
+.features-menu li {
+	display: inline-block;
+}
+
+.features-menu li a {
+	display: block;
+	color: #333;
+	font-size: 16px;
+	text-transform: uppercase;
+	font-weight: 700;
+	border-bottom: 4px solid transparent;
+	margin: 0 30px;
+}
+
+.single-feture-item {
+	position: relative;
+	width: 100%;
+	display: table;
+	height: 500px;
+}
+
+.feature-bg {
+	background-color: #ddd;
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 500px;
+	background-size: cover;
+	background-position: center;
+	background-image: url(../assets/backgroundImage/c.jpg);
+}
+
+.feature-text {
+	display: table-cell;
+	vertical-align: middle;
+	padding-left: 550px;
+}
+
+.feature-text h4 {
+	font-size: 30px;
+	opacity: 0.5;
+}
+
+.feature-text h2 {
+	font-size: 21px;
+	font-weight: 400;
+}
+
+.boxed-btn {
+	display: inline-block;
+	padding: 12px 30px;
+	background: #ffcd46;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #333;
+	border-radius: 40px;
+	margin-top: 20px;
+}
