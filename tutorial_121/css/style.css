@@ -1,0 +1,104 @@
+/*Base css*/
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap");
+a:focus,
+input:focus,
+textarea:focus,
+button:focus {
+	outline: 0 solid;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h5 {
+	margin: 0 0 15px;
+}
+html,
+body {
+	font-family: "Open Sans", sans-serif;
+	/* background: linear-gradient(135deg, #a551ff 0%, #5a30fb 100%); */
+}
+
+a,
+a:focus,
+a:hover {
+	text-decoration: none;
+}
+.section-padding {
+	background-color: #efefef;
+	margin: 50px 0;
+}
+.service-box-hover {
+	background-image: url(../assets/backgroundImage/a.jpg);
+}
+.service-icon {
+	font-size: 120px;
+	opacity: 0.1;
+}
+.single-service-box {
+	position: relative;
+	z-index: 2;
+	font-size: 18px;
+	line-height: 1.8;
+	padding: 50px 30px;
+}
+
+.single-service-box h2 {
+	margin-bottom: 50px;
+}
+.single-service-box:hover .service-box-inner {
+	color: #fff;
+}
+.single-service-box:hover .service-icon {
+	opacity: 1;
+}
+
+.service-box-hover {
+	opacity: 0;
+	visibility: hidden;
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	background-size: cover;
+	background-position: center;
+	transform: scale(1);
+	z-index: 1;
+	transition: 0.3s;
+}
+
+.single-service-box:hover .service-box-hover {
+	opacity: 1;
+	visibility: visible;
+	transform: scale(1.1);
+}
+.service-box-inner {
+	position: relative;
+	z-index: 999;
+}
+.service-box-hover:after {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	background: linear-gradient(
+		45deg,
+		#b4ddb4 0%,
+		#83c783 17%,
+		#52b152 33%,
+		#008a00 67%,
+		#005700 83%,
+		#002400 100%
+	);
+	content: "";
+	opacity: 0.8;
+	z-index: -1;
+}
