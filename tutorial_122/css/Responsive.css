@@ -1,0 +1,25 @@
+/* Medium layout: 1280px */
+@media only screen and (min-width: 992px) and (max-width: 1500px) {
+}
+/* Tablet layout: 768px */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+}
+
+/* Mobile layout: 320px */
+@media only screen and (max-width: 767px) {
+	.special-bg-section:before {
+		position: static;
+
+		height: 500px;
+		width: 100%;
+
+		display: block;
+	}
+	.special-bg-section {
+		padding-left: 0;
+		padding-right: 0;
+	}
+}
+/* Wide Mobile layout: 480px */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+}
