@@ -1,0 +1,249 @@
+/*Base css*/
+
+@import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,300;1,500;1,600;1,700&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+a:focus,
+input:focus,
+textarea:focus,
+button:focus {
+	outline: 0 solid;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h5 {
+	margin: 0 0 15px;
+	font-family: "Poppins", sans-serif;
+}
+html,
+body {
+	font-family: "Mulish", sans-serif;
+}
+
+a,
+a:focus,
+a:hover {
+	text-decoration: none;
+}
+.section-padding {
+	padding: 100px 0;
+}
+.portfolio-bg-1 {
+	background-image: url(../assets/image/man1.jpg);
+}
+.portfolio-bg-2 {
+	background-image: url(../assets/image/man2.jpg);
+}
+.portfolio-bg-3 {
+	background-image: url(../assets/image/man3.jpg);
+}
+.portfolio-bg-4 {
+	background-image: url(../assets/image/man4.jpeg);
+}
+.portfolio-bg-5 {
+	background-image: url(../assets/image/man5.jpg);
+}
+.portfolio-bg-6 {
+	background-image: url(../assets/image/man6.jpg);
+}
+.portfolio-bg-7 {
+	background-image: url(../assets/image/man7.jpg);
+}
+.portfolio-bg-8 {
+	background-image: url(../assets/image/man8.jpg);
+}
+.portfolio-bg-9 {
+	background-image: url(../assets/image/man9.jpg);
+}
+.portfolio-bg-10 {
+	background-image: url(../assets/image/man10.jpg);
+}
+.portfolio-bg-11 {
+	background-image: url(../assets/image/man11.jpg);
+}
+.logo a {
+	color: #000;
+}
+
+.logo {
+	margin: 0;
+	font-size: 20px;
+	text-transform: uppercase;
+}
+.logo h1 span {
+	font-size: 8px;
+	position: absolute;
+	top: 3px;
+	right: -14px;
+}
+
+.logo h1 {
+	display: inline-block;
+	position: relative;
+	text-transform: uppercase;
+	font-size: 22px;
+	font-family: "Mulish", sans-serif;
+	font-weight: 900;
+}
+
+.menu-trigger span {
+	display: block;
+	height: 2px;
+	background: #000;
+}
+
+.menu-trigger span:nth-child(2) {
+	margin: 6px 0;
+}
+
+.menu-trigger {
+	display: inline-block;
+	width: 30px;
+	transition: 0.3s;
+	margin-top: 3px;
+}
+
+.menu-trigger:hover span:nth-child(1),
+.menu-trigger:hover span:nth-child(3) {
+	margin: 0 5px;
+}
+
+.header-area {
+	padding: 30px 40px;
+}
+
+.single-portfolio-item {
+	float: left;
+	width: 25%;
+	height: 330px;
+	background-size: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	display: table;
+	background-color: #ddd;
+	transition: 0.3s;
+}
+
+.portfolio-hover {
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+	background: #fff;
+	opacity: 0;
+	visibility: hidden;
+	transition: 0.3s;
+}
+
+.portfolio-hover a {
+	color: #000;
+}
+
+.portfolio-hover h2 {
+	font-size: 24px;
+}
+
+.portfolio-hover p {
+	opacity: 0.5;
+	text-transform: uppercase;
+	font-size: 12px;
+}
+
+.portfolio-hover p:hover {
+	opacity: 1;
+}
+
+.single-portfolio-item:hover .portfolio-hover {
+	visibility: visible;
+	opacity: 1;
+}
+
+.single-portfolio-item:hover {
+	background-size: 120%;
+}
+.single-portfolio-item.long {
+	height: 660px;
+}
+
+.single-portfolio-item.box {
+	height: 660px;
+	width: 50%;
+}
+
+.portfolio-list {
+	overflow: hidden;
+}
+.footer-area {
+	background: #613ad6;
+}
+
+.footer-area,
+.footer-area a {
+	color: #fff;
+}
+
+.footer-area a {
+	opacity: 0.7;
+}
+
+.footer-area h2 a {
+	opacity: 1;
+}
+
+.footer-area p {
+	opacity: 0.8;
+}
+
+.footer-area {
+	font-size: 18px;
+	line-height: 2;
+	padding: 70px 0;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	z-index: 1;
+}
+
+.footer-logo {
+	font-size: 22px;
+	text-transform: uppercase;
+	display: inline-block;
+	position: relative;
+}
+
+.footer-logo span {
+	position: absolute;
+	right: -12px;
+	font-size: 7px;
+	top: 2px;
+}
+
+.footer-area h2 {
+	font-size: 22px;
+}
+
+.footer-area ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.portfolio-list {
+	position: relative;
+	z-index: 2;
+	margin-bottom: 260px;
+}
+
+.header-area {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 9;
+}
