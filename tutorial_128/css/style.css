@@ -1,0 +1,76 @@
+/*Base css*/
+
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+
+a:focus,
+input:focus,
+textarea:focus,
+button:focus {
+	outline: 0 solid;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h5 {
+	margin: 0 0 15px;
+	font-family: "Poppins", sans-serif;
+}
+html,
+body {
+	font-family: "Mulish", sans-serif;
+}
+
+a,
+a:focus,
+a:hover {
+	text-decoration: none;
+}
+.section-padding {
+	padding: 150px 0;
+}
+.section-bg-1 {
+	background-image: url(../assets/backgroundImage/a.jpg);
+}
+.section-overlay {
+	position: relative;
+	z-index: 1;
+	color: #fff;
+}
+
+.section-overlay:after {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	content: "";
+	background: #000;
+	opacity: 0.5;
+	z-index: -1;
+	transition: 0.3s;
+}
+
+h2 {
+	font-weight: 400;
+	line-height: 1.6;
+}
+
+.video-play-btn {
+	display: inline-block;
+	background: #2c99ed;
+	padding: 15px 40px;
+	font-size: 20px;
+	color: #fff;
+	margin-top: 15px;
+	border-radius: 15px;
+}
+.section-overlay:hover:after {
+	opacity: 0.7;
+}
