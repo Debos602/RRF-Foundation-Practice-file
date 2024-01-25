@@ -1,0 +1,159 @@
+/*Base css*/
+
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+
+a:focus,
+input:focus,
+textarea:focus,
+button:focus {
+	outline: 0 solid;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h5 {
+	margin: 0 0 15px;
+	font-family: "Poppins", sans-serif;
+}
+html,
+body {
+	font-family: "Mulish", sans-serif;
+}
+
+a,
+a:focus,
+a:hover {
+	text-decoration: none;
+}
+.section-padding {
+	padding: 80px 0;
+}
+
+.stethoscope-bg {
+	background: url(../assets/image/stethoscope.png) no-repeat scroll right bottom;
+}
+/* .pricing-content li:before{
+	font-family: FontAwesome;
+} */
+.section-title {
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+.section-padding.stethoscope-bg {
+	background-color: #f7f7f7;
+}
+
+.section-title h2 {
+	text-transform: uppercase;
+	font-size: 25px;
+}
+
+.section-title h2 span {
+	color: #4cbcf8;
+}
+
+.single-pricing-box {
+	border-right: 1px solid #ddd;
+	background: #fff;
+}
+
+.stethoscope-bg .col-md-4 {
+	padding-right: 0;
+	padding-left: 0;
+}
+
+.stethoscope-bg .row {
+	margin-right: 0;
+	margin-left: 0;
+}
+.pricing-title {
+	background: #1fb3d3;
+	color: #fff;
+	position: relative;
+	padding-top: 90px;
+}
+
+.pricing-ticker {
+	background: #3a3d4f;
+	height: 100px;
+	width: 100px;
+	border-radius: 50%;
+	padding-top: 25px;
+	text-align: center;
+	top: -50px;
+	position: absolute;
+	left: 19px;
+}
+
+.pricing-ticker span {
+	font-size: 23px;
+	color: #1fbcd3;
+}
+
+.color-2 .pricing-title {
+	background: #1ca5ec;
+}
+
+.pricing-title.color-2 {
+	background: #1ca5ec;
+}
+
+.pricing-title.color-3 {
+	background: #36b7f5;
+}
+
+.pricing-content ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.pricing-content li:nth-child(even) {
+	background-color: #f5f6f8;
+}
+
+.pricing-content li {
+	padding: 10px;
+	font-size: 15px;
+	padding-left: 15px;
+}
+
+.pricing-content li:before {
+	margin-right: 9px;
+}
+
+.pricing-title h2 {
+	padding-left: 15px;
+	padding-bottom: 60px;
+}
+
+.boxed-btn {
+	border: 1px solid #1fbcd3;
+	color: #1fbcd3;
+	padding: 10px 20px;
+	display: inline-block;
+	font-size: 18px;
+}
+
+.pricing-btn {
+	padding: 23px 25px;
+}
+
+.pricing-content,
+.pricing-btn {
+	border-left: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
+}
+
+.col-md-4:nth-child(3) .pricing-content,
+.col-md-4:nth-child(3) .pricing-btn {
+	border-right: 1px solid #ddd;
+}
