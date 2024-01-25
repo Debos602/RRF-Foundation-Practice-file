@@ -1,0 +1,82 @@
+/*Base css*/
+
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+
+a:focus,
+input:focus,
+textarea:focus,
+button:focus {
+	outline: 0 solid;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h5 {
+	margin: 0 0 15px;
+	font-family: "Poppins", sans-serif;
+}
+html,
+body {
+	font-family: "Mulish", sans-serif;
+}
+
+a,
+a:focus,
+a:hover {
+	text-decoration: none;
+}
+.section-padding {
+	padding: 140px 0;
+}
+.section-bg-1 {
+	background-image: url(../assets/backgroundImage/b.jpg);
+	background-size: cover;
+	background-position: center;
+	color: #fff;
+	position: relative;
+	z-index: 2;
+}
+
+.single-service-box {
+	position: relative;
+	padding-left: 40px;
+	margin-bottom: 30px;
+}
+
+.single-service-box i {
+	position: absolute;
+	top: 0;
+	left: 0;
+	font-size: 20px;
+}
+
+.section-title h2 {
+	font-weight: 800;
+	margin-bottom: 40px;
+}
+.section-blue-overlay,
+.section-black-overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 40%;
+	content: "";
+	background: #00abe5;
+	opacity: 0.8;
+}
+
+.section-black-overlay {
+	left: auto;
+	right: 0;
+	width: 60%;
+	background: #000;
+	opacity: 0.5;
+}
