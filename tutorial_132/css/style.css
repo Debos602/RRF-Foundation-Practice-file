@@ -1,0 +1,67 @@
+/*Base css*/
+
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+
+a:focus,
+input:focus,
+textarea:focus,
+button:focus {
+	outline: 0 solid;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h5 {
+	margin: 0 0 15px;
+	font-family: "Poppins", sans-serif;
+}
+html,
+body {
+	font-family: "Mulish", sans-serif;
+}
+
+a,
+a:focus,
+a:hover {
+	text-decoration: none;
+}
+.section-padding {
+	padding: 80px 0;
+}
+.portfolio-list {
+	overflow: hidden;
+}
+.single-portfolio-item {
+	float: left;
+	width: 20%;
+	height: 250px;
+	background-size: cover;
+	background-position: center;
+	background-color: #333;
+}
+.single-portfolio-item.large {
+	height: 500px;
+	width: 40%;
+}
+.single-portfolio-item.wide {
+	width: 40%;
+}
+.portfolio-bg-1 {
+	background-image: url(../assets/backgroundImage/a.jpg);
+}
+.portfolio-bg-2 {
+	background-image: url(../assets/backgroundImage/b.jpg);
+}
+.portfolio-bg-3 {
+	background-image: url(../assets/backgroundImage/c.jpg);
+}
+.portfolio-bg-4 {
+	background-image: url(../assets/backgroundImage/d.jpg);
+}
