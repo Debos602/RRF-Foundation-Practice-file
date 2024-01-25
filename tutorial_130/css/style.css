@@ -1,0 +1,130 @@
+/*Base css*/
+
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+
+a:focus,
+input:focus,
+textarea:focus,
+button:focus {
+	outline: 0 solid;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h5 {
+	margin: 0 0 15px;
+	font-family: "Poppins", sans-serif;
+}
+html,
+body {
+	font-family: "Mulish", sans-serif;
+}
+
+a,
+a:focus,
+a:hover {
+	text-decoration: none;
+}
+
+.timeline-area {
+	background-image: url(../assets/backgroundImage/images.jpg);
+	padding-top: 100px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	padding-bottom: 150px;
+}
+.timeline-area {
+	position: relative;
+	z-index: 1;
+}
+.timeline-area:after,
+.timeline-area:before {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	content: "";
+	background-color: #072938;
+	opacity: 0.6;
+	z-index: -1;
+}
+.timeline-area {
+	padding: 100px 0;
+}
+
+.section-title {
+	color: #fff;
+	text-align: center;
+	margin-bottom: 80px;
+}
+
+img.time-frame {
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	display: block;
+	margin: 0 auto;
+	border: 1px solid #385bce;
+	padding: 2px;
+}
+
+.single-timeline-item {
+	position: relative;
+	width: 150px;
+	margin: 0 auto 80px;
+	z-index: 1;
+}
+
+.timeline-text {
+	position: absolute;
+	background: #072938;
+	width: 400px;
+	left: -430px;
+	color: #fff;
+	top: 50%;
+	padding: 29px;
+	margin-top: -80px;
+	border-radius: 40px;
+}
+
+.single-timeline-item:nth-child(2n + 2) .timeline-text {
+	left: auto;
+	right: -430px;
+}
+.timeline-area:before {
+	bottom: 0;
+	top: 269px;
+	left: 50%;
+	height: 65%;
+	width: 2px;
+	background: #ddd;
+	margin-left: -1px;
+}
+
+.timeline-text:before {
+	position: absolute;
+	top: 50%;
+	right: -29px;
+	height: 0;
+	width: 0;
+	border-top: 15px solid transparent;
+	border-left: 30px solid #072938;
+	border-bottom: 15px solid transparent;
+	content: "";
+	margin-top: -11px;
+}
+
+.single-timeline-item:nth-child(even) .timeline-text:before {
+	right: auto;
+	left: -29px;
+	transform: rotate(180deg);
+}
