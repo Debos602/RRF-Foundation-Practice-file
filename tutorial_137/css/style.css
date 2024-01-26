@@ -1,0 +1,139 @@
+/*Base css*/
+
+@import url("https://fonts.googleapis.com/css2?family=Vidaloka&display=swap");
+
+a:focus,
+input:focus,
+textarea:focus,
+button:focus {
+	outline: 0 solid;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h5 {
+	margin: 0 0 15px;
+	font-family: "Poppins", sans-serif;
+}
+html,
+body {
+	font-family: "Vidaloka", sans-serif;
+}
+
+a,
+a:focus,
+a:hover {
+	text-decoration: none;
+}
+.style-bg-1 {
+	background-image: url(../assets/backgroundImage/a.jpg);
+}
+.footer-top-area {
+	background: #f4f4f4;
+	padding: 60px 0;
+	color: #777;
+	margin-top: 200px;
+}
+
+.news-letter-text h2 {
+	color: #333;
+	font-size: 36px;
+}
+
+.newsletter-form input[type="email"] {
+	background: none;
+	border: none;
+	padding: 10px 15px;
+	width: 70%;
+}
+
+.newsletter-form input[type="email"] {
+	border-bottom: 2px solid #ddd;
+}
+.newsletter-form button {
+	border: none;
+	padding: 10px;
+	background: none;
+	color: #333;
+	float: right;
+	width: 25%;
+}
+
+.newsletter-form button {
+	border-bottom: 2px solid #c2a864;
+}
+
+.newsletter-form {
+	margin-top: 12px;
+	margin-left: 30px;
+}
+
+.footer-menu ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.footer-menu li {
+	display: inline-block;
+}
+
+.footer-menu a {
+	color: #333;
+	padding-left: 30px;
+}
+
+.social-links a {
+	color: #333;
+	padding: 10px;
+}
+
+.footer-menu {
+	margin-bottom: 20px;
+}
+
+.copy-right-text {
+	margin-top: 30px;
+}
+
+.styled-bg-inner {
+	height: 100%;
+	width: 100%;
+	background-position: center;
+	background-size: cover;
+	background-color: #ddd;
+}
+
+.styled-bg {
+	height: 420px;
+	position: absolute;
+	width: 332px;
+	left: -149px;
+	bottom: 0;
+	z-index: 2;
+}
+
+.footer-bottom-area .container {
+	position: relative;
+}
+.footer-menu {
+	margin-top: 30px;
+}
+
+.styled-bg:after {
+	position: absolute;
+	bottom: -40px;
+	left: -40px;
+	content: "";
+	height: 100%;
+	width: 100%;
+	background: #f4f4f4;
+	z-index: -1;
+}
